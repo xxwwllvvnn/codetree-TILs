@@ -1,2 +1,2 @@
-n = float(input()) * 30.48
-print("% .1f" % n)
+n = float(input())
+print(f"{n*30.48:.1f}")
