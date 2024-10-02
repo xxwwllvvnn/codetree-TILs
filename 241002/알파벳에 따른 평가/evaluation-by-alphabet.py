@@ -1,4 +1,4 @@
-c = char(input())
+c = input()
 
 if c=='S':
     print("Superior")
