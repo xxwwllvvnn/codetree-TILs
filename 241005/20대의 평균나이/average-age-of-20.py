@@ -6,6 +6,6 @@ while True:
     if n>=30:
         print("%.2f" % (sum/cnt))
         break
-
-    sum += n
-    cnt += 1
+    else:
+        sum += n
+        cnt += 1
