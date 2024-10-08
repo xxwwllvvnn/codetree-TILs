@@ -6,5 +6,5 @@ for i in range(n):
         print(chr(a), end="")
         a+=1
         if a==123:
-            a+=1
+            a=65
     print()
