@@ -9,4 +9,4 @@ for i in arr[0:]:
     else:
         break
 
-print(sum, sum/n)
+print(sum, "%.1f" % (sum/n))
