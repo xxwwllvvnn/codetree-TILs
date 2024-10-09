@@ -1,9 +1,10 @@
 arr = list(map(int, input().split()))
+index = 0
 
-for i in range(len(arr)):
-    if arr[i]==0:
-        for j in range(i-1, -1, -1):
-            print(arr[j], end=" ")
-    elif i==len(arr):
-        for j in range(i, -1, -1):
-            print(arr[j], end=" ")
+for i in arr:
+    if i==0:
+        break
+    index+=1
+
+for i in range(index-1, -1, -1):
+    print(arr[i], end=" ")
