@@ -2,7 +2,7 @@ n = int(input())
 arr = list(map(float, input().split()))
 
 avg = sum(arr)/n
-print(avg)
+print("%.1f" % avg)
 
 if avg<3.0:
     print("Poor")
