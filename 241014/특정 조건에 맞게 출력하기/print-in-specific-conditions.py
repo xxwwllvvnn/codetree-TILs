@@ -7,3 +7,4 @@ for i in range(len(arr)):
                 print(arr[j]+3, end=" ")
             else:
                 print(arr[j]//2, end=" ")
+        break
