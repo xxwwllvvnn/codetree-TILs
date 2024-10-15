@@ -8,5 +8,7 @@ if arr2[0] in arr1:
     for i in range(n2):
         if arr1[idx+i]!=arr2[i]:
             isPart = "No"
+else:
+    print("No")
 
 print(isPart)
