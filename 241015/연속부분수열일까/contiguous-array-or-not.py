@@ -12,5 +12,8 @@ for i in range(n1):
         if arr1[i+j]!=arr2[j]:
             isPart = "No"
             break
+    
+    if isPart=="Yes":
+        break
 
 print(isPart)
