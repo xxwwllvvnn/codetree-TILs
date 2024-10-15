@@ -14,3 +14,4 @@ for _ in range(q):
     elif arr[0]==3:
         for i in range(arr[1]-1, arr[2]):
             print(elem[i], end=" ")
+        print()
