@@ -9,4 +9,5 @@ for i in arr:
             isRep = True
     if isRep:
         arr.remove(i)
-    print(arr)
+
+print(max(arr))
