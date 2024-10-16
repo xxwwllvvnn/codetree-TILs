@@ -9,6 +9,7 @@ for i in arr:
             isRep = True
     if isRep:
         arr.remove(i)
+    # print(arr)
 
 if len(arr) == 0:
     print(-1)
