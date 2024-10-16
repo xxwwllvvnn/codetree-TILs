@@ -10,4 +10,7 @@ for i in arr:
     if isRep:
         arr.remove(i)
 
-print(max(arr))
+if len(arr) == 0:
+    print(-1)
+else:
+    print(max(arr))
