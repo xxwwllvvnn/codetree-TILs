@@ -5,5 +5,5 @@ while True:
     maximum = arr.index(max(arr))
     print(maximum+1, end=" ")
     arr = arr[:maximum]
-    if len(arr)<=1:
+    if len(arr)<1:
         break
